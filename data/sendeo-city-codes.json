@@ -414,7 +414,7 @@
     {
       "did": "177431",
       "cid": "2",
-      "d": "GÖLBAŞI / ADIYAMAN"
+      "d": "GÖLBAŞI"
     },
     {
       "did": "177429",
@@ -429,7 +429,7 @@
     {
       "did": "177427",
       "cid": "2",
-      "d": "ADIYAMAN MERKEZ"
+      "d": "MERKEZ"
     },
     {
       "did": "177434",
@@ -449,7 +449,7 @@
     {
       "did": "177448",
       "cid": "3",
-      "d": "BAYAT / AFYONKARAHİSAR"
+      "d": "BAYAT"
     },
     {
       "did": "177440",
@@ -464,7 +464,7 @@
     {
       "did": "177436",
       "cid": "3",
-      "d": "AFYONKARAHİSAR MERKEZ"
+      "d": "MERKEZ"
     },
     {
       "did": "177441",
@@ -549,7 +549,7 @@
     {
       "did": "177454",
       "cid": "4",
-      "d": "AĞRI MERKEZ"
+      "d": "MERKEZ"
     },
     {
       "did": "177457",
@@ -604,7 +604,7 @@
     {
       "did": "177462",
       "cid": "5",
-      "d": "AMASYA MERKEZ"
+      "d": "MERKEZ"
     },
     {
       "did": "177463",
@@ -639,7 +639,7 @@
     {
       "did": "177485",
       "cid": "6",
-      "d": "GÖLBAŞI / ANKARA"
+      "d": "GÖLBAŞI"
     },
     {
       "did": "174618",
@@ -779,7 +779,7 @@
     {
       "did": "177507",
       "cid": "7",
-      "d": "KEMER / ANTALYA"
+      "d": "KEMER"
     },
     {
       "did": "177494",
@@ -829,7 +829,7 @@
     {
       "did": "177508",
       "cid": "7",
-      "d": "AKSU / ANTALYA"
+      "d": "AKSU"
     },
     {
       "did": "177517",
@@ -849,7 +849,7 @@
     {
       "did": "177515",
       "cid": "8",
-      "d": "ARTVİN MERKEZ"
+      "d": "MERKEZ"
     },
     {
       "did": "177520",
@@ -949,7 +949,7 @@
     {
       "did": "177531",
       "cid": "9",
-      "d": "YENİPAZAR / AYDIN"
+      "d": "YENİPAZAR"
     },
     {
       "did": "177528",
@@ -994,7 +994,7 @@
     {
       "did": "177546",
       "cid": "10",
-      "d": "GÖNEN / BALIKESİR"
+      "d": "GÖNEN"
     },
     {
       "did": "177555",
@@ -1049,7 +1049,7 @@
     {
       "did": "177544",
       "cid": "10",
-      "d": "EDREMİT / BALIKESİR"
+      "d": "EDREMİT"
     },
     {
       "did": "177552",
@@ -1064,7 +1064,7 @@
     {
       "did": "177558",
       "cid": "11",
-      "d": "BİLECİK MERKEZ"
+      "d": "MERKEZ"
     },
     {
       "did": "177562",
@@ -1074,7 +1074,7 @@
     {
       "did": "177564",
       "cid": "11",
-      "d": "YENİPAZAR / BİLECİK"
+      "d": "YENİPAZAR"
     },
     {
       "did": "177563",
@@ -1099,7 +1099,7 @@
     {
       "did": "177566",
       "cid": "12",
-      "d": "BİNGÖL MERKEZ"
+      "d": "MERKEZ"
     },
     {
       "did": "177569",
@@ -1154,7 +1154,7 @@
     {
       "did": "177576",
       "cid": "13",
-      "d": "BİTLİS MERKEZ"
+      "d": "MERKEZ"
     },
     {
       "did": "177580",
@@ -1199,7 +1199,7 @@
     {
       "did": "177581",
       "cid": "14",
-      "d": "BOLU MERKEZ"
+      "d": "MERKEZ"
     },
     {
       "did": "177584",
@@ -1219,12 +1219,12 @@
     {
       "did": "177598",
       "cid": "15",
-      "d": "ALTINYAYLA / BURDUR"
+      "d": "ALTINYAYLA"
     },
     {
       "did": "177597",
       "cid": "15",
-      "d": "KEMER / BURDUR"
+      "d": "KEMER"
     },
     {
       "did": "177596",
@@ -1269,7 +1269,7 @@
     {
       "did": "177592",
       "cid": "15",
-      "d": "BURDUR MERKEZ"
+      "d": "MERKEZ"
     },
     {
       "did": "177612",
@@ -1379,12 +1379,12 @@
     {
       "did": "177623",
       "cid": "17",
-      "d": "ÇANAKKALE MERKEZ"
+      "d": "MERKEZ"
     },
     {
       "did": "177618",
       "cid": "17",
-      "d": "AYVACIK / ÇANAKKALE"
+      "d": "AYVACIK"
     },
     {
       "did": "177625",
@@ -1414,7 +1414,7 @@
     {
       "did": "177629",
       "cid": "17",
-      "d": "YENİCE / ÇANAKKALE"
+      "d": "YENİCE"
     },
     {
       "did": "177641",
@@ -1444,7 +1444,7 @@
     {
       "did": "177630",
       "cid": "18",
-      "d": "ÇANKIRI MERKEZ"
+      "d": "MERKEZ"
     },
     {
       "did": "177633",
@@ -1484,7 +1484,7 @@
     {
       "did": "177643",
       "cid": "19",
-      "d": "BAYAT / ÇORUM"
+      "d": "BAYAT"
     },
     {
       "did": "177645",
@@ -1519,12 +1519,12 @@
     {
       "did": "177644",
       "cid": "19",
-      "d": "ÇORUM MERKEZ"
+      "d": "MERKEZ"
     },
     {
       "did": "177648",
       "cid": "19",
-      "d": "ORTAKÖY / ÇORUM"
+      "d": "ORTAKÖY"
     },
     {
       "did": "177649",
@@ -1584,7 +1584,7 @@
     {
       "did": "177663",
       "cid": "20",
-      "d": "KALE / DENİZLİ"
+      "d": "KALE"
     },
     {
       "did": "177657",
@@ -1639,7 +1639,7 @@
     {
       "did": "177673",
       "cid": "20",
-      "d": "BOZKURT / DENİZLİ"
+      "d": "BOZKURT"
     },
     {
       "did": "177684",
@@ -1664,7 +1664,7 @@
     {
       "did": "177691",
       "cid": "21",
-      "d": "YENİŞEHİR / DİYARBAKIR"
+      "d": "YENİŞEHİR"
     },
     {
       "did": "177683",
@@ -1729,7 +1729,7 @@
     {
       "did": "177692",
       "cid": "22",
-      "d": "EDİRNE MERKEZ"
+      "d": "MERKEZ"
     },
     {
       "did": "177693",
@@ -1809,7 +1809,7 @@
     {
       "did": "177703",
       "cid": "23",
-      "d": "ELAZIĞ MERKEZ"
+      "d": "MERKEZ"
     },
     {
       "did": "177710",
@@ -1829,7 +1829,7 @@
     {
       "did": "177713",
       "cid": "24",
-      "d": "ERZİNCAN MERKEZ"
+      "d": "MERKEZ"
     },
     {
       "did": "177718",
@@ -2094,7 +2094,7 @@
     {
       "did": "177769",
       "cid": "28",
-      "d": "GİRESUN MERKEZ"
+      "d": "MERKEZ"
     },
     {
       "did": "177776",
@@ -2169,7 +2169,7 @@
     {
       "did": "177780",
       "cid": "29",
-      "d": "GÜMÜŞHANE MERKEZ"
+      "d": "MERKEZ"
     },
     {
       "did": "177784",
@@ -2209,7 +2209,7 @@
     {
       "did": "177787",
       "cid": "30",
-      "d": "HAKKARİ MERKEZ"
+      "d": "MERKEZ"
     },
     {
       "did": "177788",
@@ -2324,17 +2324,17 @@
     {
       "did": "177816",
       "cid": "32",
-      "d": "GÖNEN / ISPARTA"
+      "d": "GÖNEN"
     },
     {
       "did": "177808",
       "cid": "32",
-      "d": "ISPARTA MERKEZ"
+      "d": "MERKEZ"
     },
     {
       "did": "177815",
       "cid": "32",
-      "d": "AKSU / ISPARTA"
+      "d": "AKSU"
     },
     {
       "did": "177812",
@@ -2369,7 +2369,7 @@
     {
       "did": "177830",
       "cid": "33",
-      "d": "YENİŞEHİR / MERSİN"
+      "d": "YENİŞEHİR"
     },
     {
       "did": "177819",
@@ -2394,7 +2394,7 @@
     {
       "did": "177824",
       "cid": "33",
-      "d": "AYDINCIK / MERSİN"
+      "d": "AYDINCIK"
     },
     {
       "did": "177828",
@@ -2799,7 +2799,7 @@
     {
       "did": "177904",
       "cid": "36",
-      "d": "KARS MERKEZ"
+      "d": "MERKEZ"
     },
     {
       "did": "177907",
@@ -2824,7 +2824,7 @@
     {
       "did": "177912",
       "cid": "37",
-      "d": "BOZKURT / KASTAMONU"
+      "d": "BOZKURT"
     },
     {
       "did": "177928",
@@ -2869,7 +2869,7 @@
     {
       "did": "177923",
       "cid": "37",
-      "d": "PINARBAŞI / KASTAMONU"
+      "d": "PINARBAŞI"
     },
     {
       "did": "177914",
@@ -2879,7 +2879,7 @@
     {
       "did": "177918",
       "cid": "37",
-      "d": "KASTAMONU MERKEZ"
+      "d": "MERKEZ"
     },
     {
       "did": "177920",
@@ -2914,7 +2914,7 @@
     {
       "did": "177933",
       "cid": "38",
-      "d": "PINARBAŞI / KAYSERİ"
+      "d": "PINARBAŞI"
     },
     {
       "did": "177931",
@@ -3019,7 +3019,7 @@
     {
       "did": "177947",
       "cid": "39",
-      "d": "KIRKLARELİ MERKEZ"
+      "d": "MERKEZ"
     },
     {
       "did": "177946",
@@ -3039,7 +3039,7 @@
     {
       "did": "177955",
       "cid": "40",
-      "d": "KIRŞEHİR MERKEZ"
+      "d": "MERKEZ"
     },
     {
       "did": "177954",
@@ -3259,7 +3259,7 @@
     {
       "did": "177978",
       "cid": "42",
-      "d": "EREĞLİ / KONYA"
+      "d": "EREĞLİ"
     },
     {
       "did": "177991",
@@ -3279,7 +3279,7 @@
     {
       "did": "178007",
       "cid": "43",
-      "d": "KÜTAHYA MERKEZ"
+      "d": "MERKEZ"
     },
     {
       "did": "178008",
@@ -3344,7 +3344,7 @@
     {
       "did": "178023",
       "cid": "44",
-      "d": "YEŞİLYURT / MALATYA"
+      "d": "YEŞİLYURT"
     },
     {
       "did": "178017",
@@ -3359,7 +3359,7 @@
     {
       "did": "178026",
       "cid": "44",
-      "d": "KALE / MALATYA"
+      "d": "KALE"
     },
     {
       "did": "178021",
@@ -3409,7 +3409,7 @@
     {
       "did": "178043",
       "cid": "45",
-      "d": "KÖPRÜBAŞI / MANİSA"
+      "d": "KÖPRÜBAŞI"
     },
     {
       "did": "178030",
@@ -3669,7 +3669,7 @@
     {
       "did": "178082",
       "cid": "49",
-      "d": "MUŞ MERKEZ"
+      "d": "MERKEZ"
     },
     {
       "did": "178085",
@@ -3719,7 +3719,7 @@
     {
       "did": "178091",
       "cid": "50",
-      "d": "NEVŞEHİR MERKEZ"
+      "d": "MERKEZ"
     },
     {
       "did": "178088",
@@ -3759,7 +3759,7 @@
     {
       "did": "178096",
       "cid": "51",
-      "d": "NİĞDE MERKEZ"
+      "d": "MERKEZ"
     },
     {
       "did": "178116",
@@ -3849,7 +3849,7 @@
     {
       "did": "178108",
       "cid": "52",
-      "d": "ULUBEY / ORDU"
+      "d": "ULUBEY"
     },
     {
       "did": "178118",
@@ -3884,12 +3884,12 @@
     {
       "did": "178125",
       "cid": "53",
-      "d": "PAZAR / RİZE"
+      "d": "PAZAR"
     },
     {
       "did": "178126",
       "cid": "53",
-      "d": "RİZE MERKEZ"
+      "d": "MERKEZ"
     },
     {
       "did": "178121",
@@ -4099,7 +4099,7 @@
     {
       "did": "178168",
       "cid": "56",
-      "d": "SİİRT MERKEZ"
+      "d": "MERKEZ"
     },
     {
       "did": "178167",
@@ -4144,7 +4144,7 @@
     {
       "did": "178176",
       "cid": "57",
-      "d": "SİNOP MERKEZ"
+      "d": "MERKEZ"
     },
     {
       "did": "178175",
@@ -4194,7 +4194,7 @@
     {
       "did": "178187",
       "cid": "58",
-      "d": "SİVAS MERKEZ"
+      "d": "MERKEZ"
     },
     {
       "did": "178195",
@@ -4244,7 +4244,7 @@
     {
       "did": "178193",
       "cid": "58",
-      "d": "ALTINYAYLA / SİVAS"
+      "d": "ALTINYAYLA"
     },
     {
       "did": "178206",
@@ -4269,7 +4269,7 @@
     {
       "did": "178202",
       "cid": "59",
-      "d": "SARAY / TEKİRDAĞ"
+      "d": "SARAY"
     },
     {
       "did": "178200",
@@ -4314,7 +4314,7 @@
     {
       "did": "178217",
       "cid": "60",
-      "d": "YEŞİLYURT / TOKAT"
+      "d": "YEŞİLYURT"
     },
     {
       "did": "178211",
@@ -4329,12 +4329,12 @@
     {
       "did": "178216",
       "cid": "60",
-      "d": "PAZAR / TOKAT"
+      "d": "PAZAR"
     },
     {
       "did": "178213",
       "cid": "60",
-      "d": "TOKAT MERKEZ"
+      "d": "MERKEZ"
     },
     {
       "did": "178214",
@@ -4369,7 +4369,7 @@
     {
       "did": "178236",
       "cid": "61",
-      "d": "KÖPRÜBAŞI / TRABZON"
+      "d": "KÖPRÜBAŞI"
     },
     {
       "did": "178225",
@@ -4474,12 +4474,12 @@
     {
       "did": "178245",
       "cid": "62",
-      "d": "TUNCELİ MERKEZ"
+      "d": "MERKEZ"
     },
     {
       "did": "178242",
       "cid": "62",
-      "d": "OVACIK / TUNCELİ"
+      "d": "OVACIK"
     },
     {
       "did": "178240",
@@ -4569,12 +4569,12 @@
     {
       "did": "178263",
       "cid": "64",
-      "d": "ULUBEY / UŞAK"
+      "d": "ULUBEY"
     },
     {
       "did": "178264",
       "cid": "64",
-      "d": "UŞAK MERKEZ"
+      "d": "MERKEZ"
     },
     {
       "did": "178260",
@@ -4599,7 +4599,7 @@
     {
       "did": "178275",
       "cid": "65",
-      "d": "SARAY / VAN"
+      "d": "SARAY"
     },
     {
       "did": "178267",
@@ -4639,7 +4639,7 @@
     {
       "did": "178274",
       "cid": "65",
-      "d": "EDREMİT / VAN"
+      "d": "EDREMİT"
     },
     {
       "did": "178277",
@@ -4654,7 +4654,7 @@
     {
       "did": "178287",
       "cid": "66",
-      "d": "AYDINCIK / YOZGAT"
+      "d": "AYDINCIK"
     },
     {
       "did": "178288",
@@ -4704,7 +4704,7 @@
     {
       "did": "178286",
       "cid": "66",
-      "d": "YOZGAT MERKEZ"
+      "d": "MERKEZ"
     },
     {
       "did": "178280",
@@ -4739,7 +4739,7 @@
     {
       "did": "178295",
       "cid": "67",
-      "d": "ZONGULDAK MERKEZ"
+      "d": "MERKEZ"
     },
     {
       "did": "178296",
@@ -4749,7 +4749,7 @@
     {
       "did": "178294",
       "cid": "67",
-      "d": "EREĞLİ / ZONGULDAK"
+      "d": "EREĞLİ"
     },
     {
       "did": "178293",
@@ -4784,7 +4784,7 @@
     {
       "did": "178300",
       "cid": "68",
-      "d": "AKSARAY MERKEZ"
+      "d": "MERKEZ"
     },
     {
       "did": "178305",
@@ -4794,7 +4794,7 @@
     {
       "did": "178301",
       "cid": "68",
-      "d": "ORTAKÖY / AKSARAY"
+      "d": "ORTAKÖY"
     },
     {
       "did": "178309",
@@ -4804,7 +4804,7 @@
     {
       "did": "178307",
       "cid": "69",
-      "d": "BAYBURT MERKEZ"
+      "d": "MERKEZ"
     },
     {
       "did": "178308",
@@ -4819,7 +4819,7 @@
     {
       "did": "178311",
       "cid": "70",
-      "d": "KARAMAN MERKEZ"
+      "d": "MERKEZ"
     },
     {
       "did": "178314",
@@ -4849,7 +4849,7 @@
     {
       "did": "178318",
       "cid": "71",
-      "d": "KIRIKKALE MERKEZ"
+      "d": "MERKEZ"
     },
     {
       "did": "178322",
@@ -4914,7 +4914,7 @@
     {
       "did": "178325",
       "cid": "72",
-      "d": "BATMAN MERKEZ"
+      "d": "MERKEZ"
     },
     {
       "did": "178333",
@@ -4934,7 +4934,7 @@
     {
       "did": "178335",
       "cid": "73",
-      "d": "ŞIRNAK MERKEZ"
+      "d": "MERKEZ"
     },
     {
       "did": "178332",
@@ -4964,7 +4964,7 @@
     {
       "did": "178338",
       "cid": "74",
-      "d": "BARTIN MERKEZ"
+      "d": "MERKEZ"
     },
     {
       "did": "178339",
@@ -4974,7 +4974,7 @@
     {
       "did": "178342",
       "cid": "75",
-      "d": "ARDAHAN MERKEZ"
+      "d": "MERKEZ"
     },
     {
       "did": "178343",
@@ -5004,7 +5004,7 @@
     {
       "did": "178349",
       "cid": "76",
-      "d": "IĞDIR MERKEZ"
+      "d": "MERKEZ"
     },
     {
       "did": "178350",
@@ -5044,7 +5044,7 @@
     {
       "did": "178352",
       "cid": "77",
-      "d": "YALOVA MERKEZ"
+      "d": "MERKEZ"
     },
     {
       "did": "38677",
@@ -5069,17 +5069,17 @@
     {
       "did": "178363",
       "cid": "78",
-      "d": "YENİCE / KARABÜK"
+      "d": "YENİCE"
     },
     {
       "did": "178361",
       "cid": "78",
-      "d": "OVACIK / KARABÜK"
+      "d": "OVACIK"
     },
     {
       "did": "178360",
       "cid": "78",
-      "d": "KARABÜK MERKEZ"
+      "d": "MERKEZ"
     },
     {
       "did": "178365",
@@ -5094,7 +5094,7 @@
     {
       "did": "178364",
       "cid": "79",
-      "d": "KİLİS MERKEZ"
+      "d": "MERKEZ"
     },
     {
       "did": "178367",
@@ -5124,7 +5124,7 @@
     {
       "did": "178370",
       "cid": "80",
-      "d": "OSMANİYE MERKEZ"
+      "d": "MERKEZ"
     },
     {
       "did": "178374",
@@ -5154,7 +5154,7 @@
     {
       "did": "178376",
       "cid": "81",
-      "d": "DÜZCE MERKEZ"
+      "d": "MERKEZ"
     },
     {
       "did": "178379",
