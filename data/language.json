@@ -1,0 +1,116 @@
+[
+  {
+    "name": "English",
+    "language_code": "en",
+    "filepath": "language",
+    "filename": "GBR.svg"
+  },
+  {
+    "name": "Arabic",
+    "language_code": "ar",
+    "filepath": "language",
+    "filename": "ARE.svg"
+  },
+  {
+    "name": "Chinese",
+    "language_code": "zh",
+    "filepath": "language",
+    "filename": "CHN.svg"
+  },
+  {
+    "name": "Russian",
+    "language_code": "ru",
+    "filepath": "language",
+    "filename": "RUS.svg"
+  },
+  {
+    "name": "Spanish",
+    "language_code": "es",
+    "filepath": "language",
+    "filename": "ESP.svg"
+  },
+  {
+    "name": "Albanian",
+    "language_code": "sq",
+    "filepath": "language",
+    "filename": "ALB.svg"
+  },
+  {
+    "name": "Hindi",
+    "language_code": "hi",
+    "filepath": "language",
+    "filename": "IND.svg"
+  },
+  {
+    "name": "Portuguese",
+    "language_code": "pt",
+    "filepath": "language",
+    "filename": "PRT.svg"
+  },
+  {
+    "name": "Japanese",
+    "language_code": "ja",
+    "filepath": "language",
+    "filename": "JPN.svg"
+  },
+  {
+    "name": "German",
+    "language_code": "de",
+    "filepath": "language",
+    "filename": "DEU.svg"
+  },
+  {
+    "name": "Turkish",
+    "language_code": "tr",
+    "filepath": "language",
+    "filename": "TUR.svg"
+  },
+  {
+    "name": "Korean",
+    "language_code": "ko",
+    "filepath": "language",
+    "filename": "KOR.svg"
+  },
+  {
+    "name": "French",
+    "language_code": "fr",
+    "filepath": "language",
+    "filename": "FRA.svg"
+  },
+  {
+    "name": "Italian",
+    "language_code": "it",
+    "filepath": "language",
+    "filename": "ITA.svg"
+  },
+  {
+    "name": "Ukrainian",
+    "language_code": "uk",
+    "filepath": "language",
+    "filename": "UKR.svg"
+  },
+  {
+    "name": "Persian",
+    "language_code": "fa",
+    "filepath": "language",
+    "filename": "IRN.svg"
+  },
+  {
+    "name": "Greek",
+    "language_code": "gre",
+    "filepath": "language",
+    "filename": "GRC.svg"
+  },
+  {
+    "name": "Hebraic",
+    "language_code": "heb",
+    "filepath": "language",
+    "filename": "ISR.svg"
+  },
+  {
+    "name": "Dutch",
+    "language_code": "nld",
+    "filepath": "language",
+    "filename": "NLD.svg"
+  }
+]
