@@ -112,5 +112,11 @@
     "language_code": "nld",
     "filepath": "language",
     "filename": "NLD.svg"
+  },
+  {
+    "name": "Bulgarian",
+    "language_code": "bg",
+    "filepath": "language",
+    "filename": "BGR.svg"
   }
 ]
