@@ -1,4 +1,4 @@
-[
+  [
   {
     "name": "English",
     "language_code": "en",
@@ -118,5 +118,59 @@
     "language_code": "bg",
     "filepath": "language",
     "filename": "BGR.svg"
+  },
+  {
+    "name": "Polish",
+    "language_code": "pl",
+    "filepath": "language",
+    "filename": "POL.svg"
+  },
+  {
+    "name": "Czech",
+    "language_code": "cs",
+    "filepath": "language",
+    "filename": "CZE.svg"
+  },
+  {
+    "name": "Latvian",
+    "language_code": "lv",
+    "filepath": "language",
+    "filename": "LVA.svg"
+  },
+  {
+    "name": "Swedish",
+    "language_code": "sv",
+    "filepath": "language",
+    "filename": "SWE.svg"
+  },
+  {
+    "name": "Lithuanian",
+    "language_code": "lt",
+    "filepath": "language",
+    "filename": "LTU.svg"
+  },
+  {
+    "name": "Macedonian",
+    "language_code": "mk",
+    "filepath": "language",
+    "filename": "MKD.svg"
+  },
+  {
+    "name": "Hungarian",
+    "language_code": "hu",
+    "filepath": "language",
+    "filename": "HUN.svg"
+  },
+  {
+    "name": "Malaysian",
+    "language_code": "ms",
+    "filepath": "language",
+    "filename": "MYS.svg"
+  },
+  {
+    "name": "Irish",
+    "language_code": "ga",
+    "filepath": "language",
+    "filename": "IRL.svg"
   }
 ]
