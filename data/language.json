@@ -172,5 +172,11 @@
     "language_code": "ga",
     "filepath": "language",
     "filename": "IRL.svg"
-  }
+  },
+    {
+"name": "Romanian",
+"language_code": "ro",
+"filepath": "language",
+"filename": "ROU.svg"
+}
 ]
