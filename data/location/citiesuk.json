@@ -1,0 +1,206 @@
+[
+    {
+      "id": 1,
+      "name": "Bath"
+    },
+    {
+      "id": 2,
+      "name": "Birmingham"
+    },
+    {
+      "id": 3,
+      "name": "Bradford"
+    },
+    {
+      "id": 4,
+      "name": "Brighton and Hove"
+    },
+    {
+      "id": 5,
+      "name": "Bristol"
+    },
+    {
+      "id": 6,
+      "name": "Cambridge"
+    },
+    {
+      "id": 7,
+      "name": "Canterbury"
+    },
+    {
+      "id": 8,
+      "name": "Carlisle"
+    },
+    {
+      "id": 9,
+      "name": "Chester"
+    },
+    {
+      "id": 10,
+      "name": "Chichester"
+    },
+    {
+      "id": 11,
+      "name": "Coventry"
+    },
+    {
+      "id": 12,
+      "name": "Derby"
+    },
+    {
+      "id": 13,
+      "name": "Durham"
+    },
+    {
+      "id": 14,
+      "name": "Ely"
+    },
+    {
+      "id": 15,
+      "name": "Exeter"
+    },
+    {
+      "id": 16,
+      "name": "Gloucester"
+    },
+    {
+      "id": 17,
+      "name": "Hereford"
+    },
+    {
+      "id": 18,
+      "name": "Kingston upon Hull"
+    },
+    {
+      "id": 19,
+      "name": "Lancaster"
+    },
+    {
+      "id": 20,
+      "name": "Leeds"
+    },
+    {
+      "id": 21,
+      "name": "Leicester"
+    },
+    {
+      "id": 22,
+      "name": "Lichfield"
+    },
+    {
+      "id": 23,
+      "name": "Lincoln"
+    },
+    {
+      "id": 24,
+      "name": "Liverpool"
+    },
+    {
+      "id": 25,
+      "name": "City of London"
+    },
+    {
+      "id": 26,
+      "name": "Manchester"
+    },
+    {
+      "id": 27,
+      "name": "Newcastle upon Tyne"
+    },
+    {
+      "id": 28,
+      "name": "Norwich"
+    },
+    {
+      "id": 29,
+      "name": "Nottingham"
+    },
+    {
+      "id": 30,
+      "name": "Oxford"
+    },
+    {
+      "id": 31,
+      "name": "Peterborough"
+    },
+    {
+      "id": 32,
+      "name": "Plymouth"
+    },
+    {
+      "id": 33,
+      "name": "Portsmouth"
+    },
+    {
+      "id": 34,
+      "name": "Preston"
+    },
+    {
+      "id": 35,
+      "name": "Ripon"
+    },
+    {
+      "id": 36,
+      "name": "Salford"
+    },
+    {
+      "id": 37,
+      "name": "Salisbury"
+    },
+    {
+      "id": 38,
+      "name": "Sheffield"
+    },
+    {
+      "id": 39,
+      "name": "Southampton"
+    },
+    {
+      "id": 40,
+      "name": "St Albans"
+    },
+    {
+      "id": 41,
+      "name": "Stoke-on-Trent"
+    },
+    {
+      "id": 42,
+      "name": "Sunderland"
+    },
+    {
+      "id": 43,
+      "name": "Truro"
+    },
+    {
+      "id": 44,
+      "name": "Wakefield"
+    },
+    {
+      "id": 45,
+      "name": "Wells"
+    },
+    {
+      "id": 46,
+      "name": "Westminster"
+    },
+    {
+      "id": 47,
+      "name": "Winchester"
+    },
+    {
+      "id": 48,
+      "name": "Wolverhampton"
+    },
+    {
+      "id": 49,
+      "name": "Worcester"
+    },
+    {
+      "id": 50,
+      "name": "York"
+    },
+    {
+      "id": 51,
+      "name": "Londra"
+    }
+  ]
