@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1,
+    "name": "Birleşik Krallık",
+    "alpha_2_code": "GB",
+    "alpha_3_code": "GBR",
+    "address_format": "",
+    "postcode_required": 1,
+    "name_en": "UK - Mainland",
+    "phone_code": "44",
+    "flag": "https://raw.githubusercontent.com/pryazilim/lib/master/data/flag/united-32x32-33115.png"
+  },
+  {
+    "id": 2,
+    "name": "Kuzey İrlanda",
+    "alpha_2_code": "GB",
+    "alpha_3_code": "GBR",
+    "address_format": "",
+    "postcode_required": 1,
+    "name_en": "Northern Ireland",
+    "phone_code": "44",
+    "flag": "https://raw.githubusercontent.com/pryazilim/lib/master/data/flag/northern-32x32-33160.png"
+  },
+  {
+    "id": 3,
+    "name": "İskoç Yaylaları ve Adaları",
+    "alpha_2_code": "GB",
+    "alpha_3_code": "GBR",
+    "address_format": "",
+    "postcode_required": 1,
+    "name_en": "Scottish Highlands and Islands",
+    "phone_code": "44",
+    "flag": ""
+  },
+  {
+    "id": 4,
+    "name": "Kanal Adaları",
+    "alpha_2_code": "GG",
+    "alpha_3_code": "GGY",
+    "address_format": "",
+    "postcode_required": 1,
+    "name_en": "Channel Islands",
+    "phone_code": "44",
+    "flag": ""
+  },
+  {
+    "id": 5,
+    "name": "Guernsey Adası",
+    "alpha_2_code": "GG",
+    "alpha_3_code": "GGY",
+    "address_format": "",
+    "postcode_required": 1,
+    "name_en": "Guernsey",
+    "phone_code": "44",
+    "flag": "https://raw.githubusercontent.com/pryazilim/lib/master/data/flag/guernsey-32x32-32980.png"
+  },
+  {
+    "id": 6,
+    "name": "Man Adası",
+    "alpha_2_code": "IM",
+    "alpha_3_code": "IMN",
+    "address_format": "",
+    "postcode_required": 1,
+    "name_en": "Isle Of Man",
+    "phone_code": "44",
+    "flag": "https://raw.githubusercontent.com/pryazilim/lib/master/data/flag/isle-32x32-32998.png"
+  },
+  {
+    "id": 7,
+    "name": "Jersey",
+    "alpha_2_code": "JE",
+    "alpha_3_code": "JEY",
+    "address_format": "",
+    "postcode_required": 0,
+    "name_en": "Jersey",
+    "phone_code": "441534",
+    "flag": "https://raw.githubusercontent.com/pryazilim/lib/master/data/flag/jersey-32x32-33004.png"
+  }
+]
