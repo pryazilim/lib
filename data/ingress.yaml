@@ -1,0 +1,938 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: ingress
+  annotations:
+    kubernetes.io/ingress.class: public
+    nginx.ingress.kubernetes.io/ssl-redirect: "false"
+    nginx.ingress.kubernetes.io/use-regex: "true"
+    nginx.ingress.kubernetes.io/rewrite-target: /$1
+    nginx.ingress.kubernetes.io/proxy-body-size: 100m
+    nginx.ingress.kubernetes.io/proxy-read-timeout: "60"
+    nginx.ingress.kubernetes.io/proxy-send-timeout: "60"
+    nginx.ingress.kubernetes.io/proxy-connect-timeout: "60"
+    nginx.ingress.kubernetes.io/from-to-www-redirect: "true"
+    cert-manager.io/cluster-issuer: "letsencrypt-prod"
+spec:
+  tls:
+    - hosts:
+        - www.kargom.com
+        - kargom.com
+        - yonetim.kargom.com
+        - user.kargom.com
+        - carrier.kargom.com
+        - kcws.pryazilim.com
+        - kcap.pryazilim.com
+        - kcup.pryazilim.com
+        - kccp.pryazilim.com
+      secretName: letsencrypt-prod
+  rules:
+    - host: www.kargom.com
+      http:
+        paths:
+          - path: /api/admin-user/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: admin-user-release-service
+                port:
+                  number: 80
+          - path: /api/general/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: general-release-service
+                port:
+                  number: 80
+          - path: /api/cargo/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: cargo-release-service
+                port:
+                  number: 80
+          - path: /api/carrier/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: carrier-release-service
+                port:
+                  number: 80
+          - path: /api/site-user/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: site-user-release-service
+                port:
+                  number: 80
+          - path: /api/websocket/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: web-socket-release-service
+                port:
+                  number: 80
+          - path: /api/warehouse/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: warehouse-release-service
+                port:
+                  number: 80
+          - path: /api/finance/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: finance-release-service
+                port:
+                  number: 80
+          - path: /api/payment/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: payment-release-service
+                port:
+                  number: 80
+          - path: /api/integration/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: integration-release-service
+                port:
+                  number: 80
+          - path: /api/vehicle/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: vehicle-release-service
+                port:
+                  number: 80
+          - path: /api/route/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: route-release-service
+                port:
+                  number: 80
+          - path: /api/shipment/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: shipment-release-service
+                port:
+                  number: 80
+          - path: /(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: web-site-release-service
+                port:
+                  number: 80
+    - host: kargom.com
+      http:
+        paths:
+          - path: /api/admin-user/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: admin-user-release-service
+                port:
+                  number: 80
+          - path: /api/general/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: general-release-service
+                port:
+                  number: 80
+          - path: /api/cargo/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: cargo-release-service
+                port:
+                  number: 80
+          - path: /api/carrier/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: carrier-release-service
+                port:
+                  number: 80
+          - path: /api/site-user/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: site-user-release-service
+                port:
+                  number: 80
+          - path: /api/websocket/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: web-socket-release-service
+                port:
+                  number: 80
+          - path: /api/warehouse/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: warehouse-release-service
+                port:
+                  number: 80
+          - path: /api/finance/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: finance-release-service
+                port:
+                  number: 80
+          - path: /api/payment/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: payment-release-service
+                port:
+                  number: 80
+          - path: /api/integration/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: integration-release-service
+                port:
+                  number: 80
+          - path: /api/vehicle/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: vehicle-release-service
+                port:
+                  number: 80
+          - path: /api/route/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: route-release-service
+                port:
+                  number: 80
+          - path: /api/shipment/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: shipment-release-service
+                port:
+                  number: 80
+          - path: /(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: web-site-release-service
+                port:
+                  number: 80
+    - host: yonetim.kargom.com
+      http:
+        paths:
+          - path: /api/admin-user/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: admin-user-release-service
+                port:
+                  number: 80
+          - path: /api/general/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: general-release-service
+                port:
+                  number: 80
+          - path: /api/cargo/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: cargo-release-service
+                port:
+                  number: 80
+          - path: /api/carrier/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: carrier-release-service
+                port:
+                  number: 80
+          - path: /api/site-user/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: site-user-release-service
+                port:
+                  number: 80
+          - path: /api/websocket/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: web-socket-release-service
+                port:
+                  number: 80
+          - path: /api/warehouse/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: warehouse-release-service
+                port:
+                  number: 80
+          - path: /api/finance/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: finance-release-service
+                port:
+                  number: 80
+          - path: /api/payment/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: payment-release-service
+                port:
+                  number: 80
+          - path: /api/integration/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: integration-release-service
+                port:
+                  number: 80
+          - path: /api/vehicle/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: vehicle-release-service
+                port:
+                  number: 80
+          - path: /api/route/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: route-release-service
+                port:
+                  number: 80
+          - path: /api/shipment/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: shipment-release-service
+                port:
+                  number: 80
+          - path: /(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: web-admin-release-service
+                port:
+                  number: 80
+    - host: user.kargom.com
+      http:
+        paths:
+          - path: /api/admin-user/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: admin-user-release-service
+                port:
+                  number: 80
+          - path: /api/general/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: general-release-service
+                port:
+                  number: 80
+          - path: /api/cargo/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: cargo-release-service
+                port:
+                  number: 80
+          - path: /api/carrier/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: carrier-release-service
+                port:
+                  number: 80
+          - path: /api/site-user/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: site-user-release-service
+                port:
+                  number: 80
+          - path: /api/websocket/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: web-socket-release-service
+                port:
+                  number: 80
+          - path: /api/warehouse/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: warehouse-release-service
+                port:
+                  number: 80
+          - path: /api/finance/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: finance-release-service
+                port:
+                  number: 80
+          - path: /api/payment/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: payment-release-service
+                port:
+                  number: 80
+          - path: /api/integration/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: integration-release-service
+                port:
+                  number: 80
+          - path: /api/vehicle/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: vehicle-release-service
+                port:
+                  number: 80
+          - path: /api/route/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: route-release-service
+                port:
+                  number: 80
+          - path: /api/shipment/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: shipment-release-service
+                port:
+                  number: 80
+          - path: /(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: web-user-release-service
+                port:
+                  number: 80
+    - host: carrier.kargom.com
+      http:
+        paths:
+          - path: /api/admin-user/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: admin-user-release-service
+                port:
+                  number: 80
+          - path: /api/general/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: general-release-service
+                port:
+                  number: 80
+          - path: /api/cargo/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: cargo-release-service
+                port:
+                  number: 80
+          - path: /api/carrier/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: carrier-release-service
+                port:
+                  number: 80
+          - path: /api/site-user/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: site-user-release-service
+                port:
+                  number: 80
+          - path: /api/websocket/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: web-socket-release-service
+                port:
+                  number: 80
+          - path: /api/warehouse/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: warehouse-release-service
+                port:
+                  number: 80
+          - path: /api/finance/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: finance-release-service
+                port:
+                  number: 80
+          - path: /api/payment/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: payment-release-service
+                port:
+                  number: 80
+          - path: /api/integration/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: integration-release-service
+                port:
+                  number: 80
+          - path: /api/vehicle/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: vehicle-release-service
+                port:
+                  number: 80
+          - path: /api/route/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: route-release-service
+                port:
+                  number: 80
+          - path: /api/shipment/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: shipment-release-service
+                port:
+                  number: 80
+          - path: /(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: web-carrier-release-service
+                port:
+                  number: 80
+    - host: kcws.pryazilim.com
+      http:
+        paths:
+          - path: /api/admin-user/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: admin-user-development-service
+                port:
+                  number: 80
+          - path: /api/general/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: general-development-service
+                port:
+                  number: 80
+          - path: /api/cargo/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: cargo-development-service
+                port:
+                  number: 80
+          - path: /api/carrier/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: carrier-development-service
+                port:
+                  number: 80
+          - path: /api/site-user/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: site-user-development-service
+                port:
+                  number: 80
+          - path: /api/websocket/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: web-socket-development-service
+                port:
+                  number: 80
+          - path: /api/warehouse/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: warehouse-development-service
+                port:
+                  number: 80
+          - path: /api/finance/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: finance-development-service
+                port:
+                  number: 80
+          - path: /api/payment/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: payment-development-service
+                port:
+                  number: 80
+          - path: /api/integration/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: integration-development-service
+                port:
+                  number: 80
+          - path: /api/vehicle/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: vehicle-development-service
+                port:
+                  number: 80
+          - path: /api/route/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: route-development-service
+                port:
+                  number: 80
+          - path: /api/shipment/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: shipment-development-service
+                port:
+                  number: 80
+          - path: /(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: web-site-development-service
+                port:
+                  number: 80
+    - host: kcap.pryazilim.com
+      http:
+        paths:
+          - path: /api/admin-user/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: admin-user-development-service
+                port:
+                  number: 80
+          - path: /api/general/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: general-development-service
+                port:
+                  number: 80
+          - path: /api/cargo/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: cargo-development-service
+                port:
+                  number: 80
+          - path: /api/carrier/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: carrier-development-service
+                port:
+                  number: 80
+          - path: /api/site-user/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: site-user-development-service
+                port:
+                  number: 80
+          - path: /api/websocket/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: web-socket-development-service
+                port:
+                  number: 80
+          - path: /api/warehouse/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: warehouse-development-service
+                port:
+                  number: 80
+          - path: /api/finance/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: finance-development-service
+                port:
+                  number: 80
+          - path: /api/payment/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: payment-development-service
+                port:
+                  number: 80
+          - path: /api/integration/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: integration-development-service
+                port:
+                  number: 80
+          - path: /api/vehicle/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: vehicle-development-service
+                port:
+                  number: 80
+          - path: /api/route/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: route-development-service
+                port:
+                  number: 80
+          - path: /api/shipment/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: shipment-development-service
+                port:
+                  number: 80
+          - path: /(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: web-admin-development-service
+                port:
+                  number: 80
+    - host: kcup.pryazilim.com
+      http:
+        paths:
+          - path: /api/admin-user/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: admin-user-development-service
+                port:
+                  number: 80
+          - path: /api/general/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: general-development-service
+                port:
+                  number: 80
+          - path: /api/cargo/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: cargo-development-service
+                port:
+                  number: 80
+          - path: /api/carrier/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: carrier-development-service
+                port:
+                  number: 80
+          - path: /api/site-user/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: site-user-development-service
+                port:
+                  number: 80
+          - path: /api/websocket/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: web-socket-development-service
+                port:
+                  number: 80
+          - path: /api/warehouse/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: warehouse-development-service
+                port:
+                  number: 80
+          - path: /api/finance/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: finance-development-service
+                port:
+                  number: 80
+          - path: /api/payment/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: payment-development-service
+                port:
+                  number: 80
+          - path: /api/integration/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: integration-development-service
+                port:
+                  number: 80
+          - path: /api/vehicle/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: vehicle-development-service
+                port:
+                  number: 80
+          - path: /api/route/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: route-development-service
+                port:
+                  number: 80
+          - path: /api/shipment/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: shipment-development-service
+                port:
+                  number: 80
+          - path: /(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: web-user-development-service
+                port:
+                  number: 80
+    - host: kccp.pryazilim.com
+      http:
+        paths:
+          - path: /api/admin-user/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: admin-user-development-service
+                port:
+                  number: 80
+          - path: /api/general/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: general-development-service
+                port:
+                  number: 80
+          - path: /api/cargo/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: cargo-development-service
+                port:
+                  number: 80
+          - path: /api/carrier/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: carrier-development-service
+                port:
+                  number: 80
+          - path: /api/site-user/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: site-user-development-service
+                port:
+                  number: 80
+          - path: /api/websocket/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: web-socket-development-service
+                port:
+                  number: 80
+          - path: /api/warehouse/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: warehouse-development-service
+                port:
+                  number: 80
+          - path: /api/finance/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: finance-development-service
+                port:
+                  number: 80
+          - path: /api/payment/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: payment-development-service
+                port:
+                  number: 80
+          - path: /api/integration/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: integration-development-service
+                port:
+                  number: 80
+          - path: /api/vehicle/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: vehicle-development-service
+                port:
+                  number: 80
+          - path: /api/route/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: route-development-service
+                port:
+                  number: 80
+          - path: /api/shipment/(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: shipment-development-service
+                port:
+                  number: 80
+          - path: /(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: web-carrier-development-service
+                port:
+                  number: 80
