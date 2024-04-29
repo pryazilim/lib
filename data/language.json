@@ -1,4 +1,4 @@
-  [
+[
   {
     "name": "English",
     "language_code": "en",
@@ -173,10 +173,58 @@
     "filepath": "language",
     "filename": "IRL.svg"
   },
-    {
-"name": "Romanian",
-"language_code": "ro",
-"filepath": "language",
-"filename": "ROM.svg"
-}
+  {
+    "name": "Romanian",
+    "language_code": "ro",
+    "filepath": "language",
+    "filename": "ROM.svg"
+  },
+  {
+    "name": "Serbian",
+    "language_code": "rs",
+    "filepath": "language",
+    "filename": "SRB.svg"
+  },
+  {
+    "name": "Bosnian",
+    "language_code": "ba",
+    "filepath": "language",
+    "filename": "BIH.svg"
+  },
+  {
+    "name": "Croatian",
+    "language_code": "hr",
+    "filepath": "language",
+    "filename": "HRV.svg"
+  },
+  {
+    "name": "Norwegian",
+    "language_code": "no",
+    "filepath": "language",
+    "filename": "NOR.svg"
+  },
+  {
+    "name": "Georgian",
+    "language_code": "ge",
+    "filepath": "language",
+    "filename": "GEO.svg"
+  },
+  {
+    "name": "Azerbaijani",
+    "language_code": "az",
+    "filepath": "language",
+    "filename": "AZE.svg"
+  },
+  {
+    "name": "Montenegrin",
+    "language_code": "me",
+    "filepath": "language",
+    "filename": "MNE.svg"
+  },
+  {
+    "name": "Slovenian",
+    "language_code": "si",
+    "filepath": "language",
+    "filename": "SVN.svg"
+  }
 ]
